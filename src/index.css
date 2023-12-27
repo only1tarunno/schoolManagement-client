@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  font-family: "Epilogue", sans-serif;
+}
+
+.navbar a {
+  border-radius: 3px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.menu-horizontal > li .active,
+.dropdown-content > li .active {
+  background-color: transparent !important;
+  color: #0ab99d !important;
+}
+
+.navbar a:hover {
+  background-color: transparent !important;
+  color: #0ab99d !important;
+  outline: none;
+  outline-offset: 0;
+}

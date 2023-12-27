@@ -57,7 +57,7 @@ const Navbar = () => {
                   <img src={logo} alt="logo" className="w-28" />
                 </div>
                 <div className="flex-none hidden lg:block lg:flex-1 text-center">
-                  <ul className="menu menu-horizontal text-[#333]">
+                  <ul className="menu menu-horizontal text-lg">
                     {/* Navbar menu content here */}
                     {links}
                   </ul>
@@ -67,7 +67,7 @@ const Navbar = () => {
                   {/* ---------check if user login they see profile------------- */}
                   <div>
                     <Link to="/login">
-                      <button className="text-base font-bold shadow-none text-center text-white btn bg-[#0ab99d] border-none hover:bg-[#52e7ce] focus:outline-none">
+                      <button className="text-base font-bold shadow-none text-center text-white btn bg-[#0ab99d] border-none rounded hover:bg-[#52e7ce] focus:outline-none">
                         Login
                       </button>
                     </Link>

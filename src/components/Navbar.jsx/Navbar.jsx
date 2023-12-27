@@ -14,14 +14,11 @@ const Navbar = () => {
         <NavLink to="/about">About</NavLink>
       </li>
       <li>
-        <NavLink to="/shop">Shop</NavLink>
+        <NavLink to="/shop">Services</NavLink>
       </li>
 
       <li>
         <NavLink to="/contact">Contact</NavLink>
-      </li>
-      <li>
-        <NavLink to="/faq">FAQ</NavLink>
       </li>
     </>
   );
@@ -70,7 +67,7 @@ const Navbar = () => {
                   {/* ---------check if user login they see profile------------- */}
                   <div>
                     <Link to="/login">
-                      <button className="px-3 text-sm font-medium shadow-none text-center text-[#333] btn bg-transparent border-none hover:bg-transparent focus:outline-none">
+                      <button className="text-base font-bold shadow-none text-center text-white btn bg-[#0ab99d] border-none hover:bg-[#52e7ce] focus:outline-none">
                         Login
                       </button>
                     </Link>

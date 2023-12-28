@@ -15,7 +15,7 @@ const Banner = () => {
       <Container>
         {" "}
         <div className="flex items-center justify-between relative z-20 flex-col md:flex-row">
-          <div className="w-full md:w-1/2 order-2 md:order-1">
+          <div className="w-full md:w-1/2 order-2 md:order-1 pt-8 md:pt-0 text-center md:text-start">
             <h2 className="text-[#0e2a46] text-3xl md:text-4xl lg:text-6xl font-bold max-w-[650px]">
               Develop Your skills with online courses From A Pro
             </h2>

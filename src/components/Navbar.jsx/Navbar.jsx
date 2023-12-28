@@ -1,10 +1,8 @@
-import { Link, NavLink, useNavigate } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import Container from "../shared/Container";
 import logo from "../../assets/logo-black.png";
 
 const Navbar = () => {
-  const navigate = useNavigate();
-
   const links = (
     <>
       <li>

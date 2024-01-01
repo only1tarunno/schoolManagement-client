@@ -24,3 +24,16 @@ body {
   outline: none;
   outline-offset: 0;
 }
+
+.cat-container {
+  transition: 0.5s all ease-in-out;
+}
+
+.cat-container:hover > span {
+  background-color: #000;
+}
+
+.cat-container:hover > h2,
+.cat-container:hover > a {
+  color: #fff;
+}

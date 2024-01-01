@@ -3,7 +3,7 @@ import SectionTitle from "../../components/shared/SectionTitle";
 
 const Category = () => {
   return (
-    <div>
+    <div className="py-10 lg:py-16">
       <Container>
         <SectionTitle
           title={"Browse By Categories"}

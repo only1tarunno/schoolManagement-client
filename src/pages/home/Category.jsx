@@ -10,7 +10,6 @@ import img6 from "../../assets/c6.png";
 import img7 from "../../assets/c7.png";
 import img8 from "../../assets/c8.png";
 import CategoryCard from "../../components/shared/CategoryCard";
-import { Link } from "react-router-dom";
 
 const Category = () => {
   return (

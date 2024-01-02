@@ -7,7 +7,7 @@ const CategoryCard = ({ iconImg, title }) => {
   return (
     <div
       className="bg-[#f2f2f2] px-4 py-16 rounded-lg text-center hover:bg-[#0ab99d] cat-container cursor-pointer"
-      onClick={() => navigate("/a")}
+      onClick={() => navigate("/")}
     >
       <span className="bg-[#0ab99d] rounded-[50%] h-24 w-24 flex items-center justify-center mx-auto mb-9">
         <img src={iconImg} className="h-11 w-11" alt="" />

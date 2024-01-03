@@ -27,6 +27,11 @@ const FeturedCourse = () => {
             title={"It Statistics Data Science And Business Analysis"}
           />
         </div>
+        <div className="text-center pt-5 md:pt-10 lg:pt-14">
+          <button className="text-base font-bold shadow-none  text-white btn bg-[#0ab99d] border-none rounded hover:bg-[#52e7ce] focus:outline-none">
+            Load More Course
+          </button>
+        </div>
       </Container>
     </div>
   );

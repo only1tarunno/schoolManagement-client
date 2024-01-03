@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div className="py-10 md:py-24">
       <Container>
-        <div className="flex justify-between items-center gap-5">
+        <div className="flex justify-between items-center gap-5 flex-col md:flex-row">
           <div className="w-full md:w-[48%] flex gap-5 items-center justify-center">
             <div className="w-[40%] lg:block hidden">
               <img src={img1} className="rounded-xl pb-5 w-full" alt="" />
@@ -17,7 +17,7 @@ const About = () => {
               <img src={img3} className="rounded-lg w-full" alt="" />
             </div>
           </div>
-          <div className="w-full md:w-[48%] space-y-5">
+          <div className="w-full md:w-[48%] space-y-5 text-center md:text-start">
             <span className="text-[#0ab99d] bg-[#0ab99c33] uppercase px-5 py-1 rounded  inline-block">
               OUR ABOUT US
             </span>
@@ -49,6 +49,9 @@ const About = () => {
                 </p>
               </div>
             </div>
+            <button className="text-base font-bold shadow-none  text-white btn bg-[#0ab99d] border-none rounded hover:bg-[#52e7ce] focus:outline-none">
+              More About Us
+            </button>
           </div>
         </div>
       </Container>

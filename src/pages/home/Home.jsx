@@ -1,5 +1,6 @@
 import About from "./About";
 import Banner from "./Banner";
+import CallToAction from "./CallToAction";
 import Category from "./Category";
 import FeturedCourse from "./FeturedCourse";
 
@@ -10,6 +11,7 @@ const Home = () => {
       <Category></Category>
       <FeturedCourse></FeturedCourse>
       <About></About>
+      <CallToAction></CallToAction>
     </>
   );
 };

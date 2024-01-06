@@ -3,6 +3,7 @@ import Banner from "./Banner";
 import CallToAction from "./CallToAction";
 import Category from "./Category";
 import FeturedCourse from "./FeturedCourse";
+import Testimonial from "./Testimonial";
 import WhyUs from "./WhyUs";
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
       <About></About>
       <CallToAction></CallToAction>
       <WhyUs></WhyUs>
+      <Testimonial></Testimonial>
     </>
   );
 };

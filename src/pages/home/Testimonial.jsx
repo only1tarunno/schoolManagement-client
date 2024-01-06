@@ -1,5 +1,6 @@
 import Container from "../../components/shared/Container";
 import SectionTitle from "../../components/shared/SectionTitle";
+import TestimonialCard from "./TestimonialCard";
 
 const Testimonial = () => {
   return (
@@ -10,6 +11,7 @@ const Testimonial = () => {
             title={"Creating A Community Of Life Long Learners"}
             subtitle={"TESTIMONIAL"}
           ></SectionTitle>
+          <TestimonialCard></TestimonialCard>
         </div>
       </Container>
     </div>

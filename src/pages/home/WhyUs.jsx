@@ -18,7 +18,30 @@ const WhyUs = () => {
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris..
             </p>
-            <div></div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+              <div className="bg-[#f8f6f1] px-5 py-7 rounded-lg">
+                <h3 className="text-[#0e2a46] font-bold text-lg">
+                  World Class Trainers
+                </h3>
+                <p>Gravida dictum fusce placerat ultricies integer</p>
+              </div>
+              <div className="bg-[#f8f6f1] px-5 py-7 rounded-lg">
+                <h3 className="text-[#0e2a46] font-bold text-lg">
+                  Easy Learning
+                </h3>
+                <p>Gravida dictum fusce placerat ultricies integer</p>
+              </div>
+              <div className="bg-[#f8f6f1] px-5 py-7 rounded-lg">
+                <h3 className="text-[#0e2a46] font-bold text-lg">Flexible</h3>
+                <p>Gravida dictum fusce placerat ultricies integer</p>
+              </div>
+              <div className="bg-[#f8f6f1] px-5 py-7 rounded-lg">
+                <h3 className="text-[#0e2a46] font-bold text-lg">
+                  Affordable Price
+                </h3>
+                <p>Gravida dictum fusce placerat ultricies integer</p>
+              </div>
+            </div>
           </div>
           <div className="w-full md:w-[40%]">
             <img src={img1} className="w-full" alt="" />

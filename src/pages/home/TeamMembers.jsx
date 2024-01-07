@@ -3,6 +3,7 @@ import img1 from "../../assets/team-1-1.png";
 import img2 from "../../assets/team-1-2.png";
 import img3 from "../../assets/team-1-3.png";
 import img4 from "../../assets/team-1-4.png";
+import TeamMemberSingleImage from "./TeamMemberSingleImage";
 
 const TeamMembers = () => {
   return (
@@ -32,26 +33,10 @@ const TeamMembers = () => {
             </div>
           </div>
           <div className="w-full md:w-[55%] grid grid-cols-1 md:grid-cols-2 gap-5 items-center justify-center">
-            <img
-              src={img1}
-              className="w-[360px] h-[360px] object-cover"
-              alt=""
-            />
-            <img
-              src={img2}
-              className="w-[360px] h-[360px] object-cover"
-              alt=""
-            />
-            <img
-              src={img3}
-              className="w-[360px] h-[360px] object-cover"
-              alt=""
-            />
-            <img
-              src={img4}
-              className="w-[360px] h-[360px] object-cover"
-              alt=""
-            />
+            <TeamMemberSingleImage img1={img1} />
+            <TeamMemberSingleImage img1={img2} />
+            <TeamMemberSingleImage img1={img3} />
+            <TeamMemberSingleImage img1={img4} />
           </div>
         </div>
       </Container>

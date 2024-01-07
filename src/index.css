@@ -37,3 +37,22 @@ body {
 .cat-container:hover > a {
   color: #fff;
 }
+
+.teamImg {
+  position: relative;
+}
+.teamImg::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: #0e2a4680;
+  opacity: 0;
+  transition: 0.4s all ease-in-out;
+  z-index: 1;
+}
+.teamImg:hover::before {
+  opacity: 0.5;
+}

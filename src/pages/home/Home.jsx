@@ -1,5 +1,6 @@
 import About from "./About";
 import Banner from "./Banner";
+import Blog from "./Blog";
 import CallToAction from "./CallToAction";
 import Category from "./Category";
 import FeturedCourse from "./FeturedCourse";
@@ -10,14 +11,15 @@ import WhyUs from "./WhyUs";
 const Home = () => {
   return (
     <>
-      <Banner></Banner>
-      <Category></Category>
-      <FeturedCourse></FeturedCourse>
-      <About></About>
-      <CallToAction></CallToAction>
-      <WhyUs></WhyUs>
-      <Testimonial></Testimonial>
-      <TeamMembers></TeamMembers>
+      <Banner />
+      <Category />
+      <FeturedCourse />
+      <About />
+      <CallToAction />
+      <WhyUs />
+      <Testimonial />
+      <TeamMembers />
+      <Blog />
     </>
   );
 };

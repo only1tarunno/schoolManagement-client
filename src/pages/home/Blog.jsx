@@ -12,10 +12,10 @@ const Blog = () => {
         <div>
           <SectionTitle title={"Post Popular Post"} subtitle={"BLOG POST"} />
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-10 pt-10">
           <BlogCard blogIMg={course1} />
-          <BlogCard blogIMg={course1} />
-          <BlogCard blogIMg={course1} />
+          <BlogCard blogIMg={course2} />
+          <BlogCard blogIMg={course3} />
         </div>
       </Container>
     </div>

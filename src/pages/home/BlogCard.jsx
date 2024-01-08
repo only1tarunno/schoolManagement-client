@@ -1,13 +1,13 @@
-import React from "react";
+/* eslint-disable react/prop-types */
 
-const BlogCard = () => {
+const BlogCard = ({ blogIMg }) => {
   return (
-    <div className="card  bg-base-100 shadow-xl rounded-md">
-      <figure className="px-5 pt-5">
-        <img src={courseIMg} alt="" className="rounded-lg" />
+    <div className="card  bg-[#eeeeee] shadow-xl rounded-md">
+      <figure className="p-8">
+        <img src={blogIMg} alt="" className="rounded-lg w-full" />
       </figure>
-      <div className="card-body px-5">
-        <div className="flex items-center gap-8 pb-4 border-b border-dashed border-[#4d5756]">
+      <div className="card-body px-8">
+        <div className="flex items-center gap-8 text-[#4d5756]">
           <div>14 June 2023</div>
           <div>Comment (06)</div>
         </div>
@@ -16,7 +16,11 @@ const BlogCard = () => {
           occaecat cupidatat
         </h2>
 
-        <button className="btn btn-sm">Details</button>
+        <div>
+          <button className="text-base font-bold shadow-none  text-white btn bg-[#0ab99d] border-none rounded hover:bg-[#52e7ce] focus:outline-none">
+            Read More
+          </button>
+        </div>
       </div>
     </div>
   );

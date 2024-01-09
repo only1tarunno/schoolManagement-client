@@ -4,6 +4,7 @@ import Blog from "./Blog";
 import CallToAction from "./CallToAction";
 import Category from "./Category";
 import FeturedCourse from "./FeturedCourse";
+import NewsLetter from "./NewsLetter";
 import TeamMembers from "./TeamMembers";
 import Testimonial from "./Testimonial";
 import WhyUs from "./WhyUs";
@@ -20,6 +21,7 @@ const Home = () => {
       <Testimonial />
       <TeamMembers />
       <Blog />
+      <NewsLetter />
     </>
   );
 };

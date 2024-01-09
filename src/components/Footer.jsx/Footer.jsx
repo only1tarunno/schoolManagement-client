@@ -2,9 +2,9 @@ import Container from "../shared/Container";
 
 const Footer = () => {
   return (
-    <div>
+    <div className="bg-black">
       <Container>
-        <footer className="footer p-10 bg-base-200 text-base-content">
+        <footer className="footer p-10 text-white">
           <aside>
             <svg
               width="50"

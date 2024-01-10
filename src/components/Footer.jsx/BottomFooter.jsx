@@ -1,9 +1,13 @@
 const BottomFooter = () => {
   return (
-    <div className="footer footer-center p-4  text-base-content bg-[#222]">
+    <div className="footer footer-center py-5  text-base-content bg-[#2c2c2c]">
       <aside>
-        <p>
-          Copyright © 2024 <a href="/">Educate</a> || All Rights Reserved
+        <p className="text-lg font-medium text-white">
+          Copyright © 2024{" "}
+          <a href="/" className="text-[#0ab99d] font-bold">
+            Educate
+          </a>{" "}
+          || All Rights Reserved
         </p>
       </aside>
     </div>
